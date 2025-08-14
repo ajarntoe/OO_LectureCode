@@ -10,6 +10,8 @@ public class ChainCaller {
 	public void method1(double a, double b) {
 		try {
 			System.out.println(method2(a, b));
+            System.out.println(a/b);
+
 		} catch (ArithmeticException ae) {
 			System.out.println("Divided by zero not allowed");
 		}

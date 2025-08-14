@@ -34,7 +34,7 @@ javafx {
 }
 
 application {
-    mainClass = 'Object_Code.TransportSim' // path to your main class
+    mainClass = 'Exception_Code.ExShowDivide' // path to your main class
 }
 
 test {

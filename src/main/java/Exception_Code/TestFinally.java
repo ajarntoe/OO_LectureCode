@@ -15,8 +15,8 @@ public class TestFinally {
 					break;
 			} catch (ArithmeticException ae) {
 				System.out.println("catch");
-				return;
-				//System.exit(-1);
+				//return;
+				System.exit(-1);
 			} finally {
 				System.out.println("finally");
 			}

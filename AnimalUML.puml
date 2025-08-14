@@ -1,0 +1,27 @@
+@startuml
+class Polymorphism.Dog {
++ String speak()
+}
+
+class Polymorphism.Animal {
++ String speak()
+}
+
+class Polymorphism.AnimalFarm {
++ {static} void main(String[])
+}
+
+class Polymorphism.Duck {
++ String speak()
+}
+
+class Polymorphism.Cat {
++ String speak()
+}
+
+
+
+Polymorphism.Animal <|-- Polymorphism.Dog
+Polymorphism.Animal <|-- Polymorphism.Duck
+Polymorphism.Animal <|-- Polymorphism.Cat
+@enduml
