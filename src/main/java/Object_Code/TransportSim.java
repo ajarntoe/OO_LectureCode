@@ -7,10 +7,10 @@ public class TransportSim {
         Car b = new Car();
 
         a.setSpeed(100);
-        b.setSpeed(-100);
+        b.setAcc(-100);
 
         System.out.println(a.getSpeed());
-        System.out.println(b.getSpeed());
+        System.out.println(b.getAcc());
     }
 
 

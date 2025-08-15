@@ -7,6 +7,9 @@ public class AnimalFarm {
 
         System.out.println(a.speak());
         System.out.println(b.speak());
+        System.out.println(((Cat)a).speakFromSup());
+
+
         System.out.println("--------------");
 
         Animal c = a;

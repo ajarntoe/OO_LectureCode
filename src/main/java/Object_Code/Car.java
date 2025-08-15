@@ -4,6 +4,8 @@ public class Car {
     private int speed;
     private int acc;
 
+
+
     public int getSpeed() {
         return speed;
     }
@@ -25,4 +27,6 @@ public class Car {
         else
             this.acc = acc;
     }
+
+
 }
