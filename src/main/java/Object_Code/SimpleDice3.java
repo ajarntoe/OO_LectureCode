@@ -65,15 +65,8 @@ public class SimpleDice3 {
 
     @Override
     public boolean equals(Object o) {
-        //if (!(o instanceof SimpleDice3 that)) return false;
-        //return faceValue == that.faceValue;
-
-        if (!(o instanceof SimpleDice3)) return false;
-        else {
-          SimpleDice3 t = (SimpleDice3) o;
-          return faceValue == t.faceValue;
-        }
-
+        if (!(o instanceof SimpleDice3 that)) return false;
+        return faceValue == that.faceValue;
     }
 
     @Override

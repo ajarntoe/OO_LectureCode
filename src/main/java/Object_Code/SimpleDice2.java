@@ -9,10 +9,13 @@ public class SimpleDice2 {
 		this.faceValue = faceValue;
 	}
 
+
 	public SimpleDice2() {
 		this(1);
-        //this.faceValue = this.roll();
+        //this.faceValue = 1;
 	}
+
+
 
 	public int roll() {
 		faceValue = (int) (Math.random() * MAX) + 1;

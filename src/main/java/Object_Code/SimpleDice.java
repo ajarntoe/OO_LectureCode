@@ -14,6 +14,7 @@ public class SimpleDice {
 	}
 
 
+
     public static void main(String[] args) {
 		SimpleDice diceA = new SimpleDice(1);
 		System.out.println(diceA.MAX);
